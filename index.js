@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, name) {
+function takeANumber(name) {
   //return name's position in line
   //"Welcome, Ada. You are number 1 in line."
   katzDeliLine.push(name);

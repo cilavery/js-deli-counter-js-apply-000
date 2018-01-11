@@ -12,8 +12,9 @@ function takeANumber(katzDeliLine, name) {
 function nowServing() {
   //return first person in line then remove that person from line
   //if line empty, return "There is nobody waiting to be served!"
-  var currentCustomer = katzDeliLine[0]
-  console.log(`Currently serving ${currentCustomer}.`)
+  var currentCustomer = katzDeliLine[0];
+  console.log(`Currently serving ${currentCustomer}.`);
+  katzDeliLine.shift();
 }
 
 function currentLine() {

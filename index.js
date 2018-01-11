@@ -2,6 +2,10 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name) {
   //return name's position in line
+  //"Welcome, Ada. You are number 1 in line."
+  katzDeliLine.push(name);
+  var nameIdx = katzDeliLine.indexOf(name);
+  console.log(`Welcome, ${name}. You are number ${nameIdx + 1} in line.`)
   
 }
 

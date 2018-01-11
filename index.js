@@ -6,12 +6,14 @@ function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
   var nameIdx = katzDeliLine.indexOf(name);
   console.log(`Welcome, ${name}. You are number ${nameIdx + 1} in line.`)
-  
+
 }
 
 function nowServing() {
   //return first person in line then remove that person from line
   //if line empty, return "There is nobody waiting to be served!"
+  var currentCustomer = katzDeliLine[0]
+  console.log(`Currently serving ${currentCustomer}.`)
 }
 
 function currentLine() {

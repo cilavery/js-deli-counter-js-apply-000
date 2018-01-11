@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, name) {
   //"Welcome, Ada. You are number 1 in line."
   katzDeliLine.push(name);
   var nameIdx = katzDeliLine.indexOf(name);
-  console.log(`Welcome, ${name}. You are number ${nameIdx + 1} in line.`)
+  return `Welcome, ${name}. You are number ${nameIdx + 1} in line.`
 
 }
 

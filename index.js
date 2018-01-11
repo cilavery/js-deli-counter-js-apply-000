@@ -19,7 +19,7 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine() {
+function currentLine(katzDeliLine) {
   //returns currentLine with 'The line is currently: 1. Ada, 2. Grace'
   //If the line is empty, return "The line is currently empty"
   if (katzDeliLine.length === 0) {

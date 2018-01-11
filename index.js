@@ -2,6 +2,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name) {
   //return name's position in line
+  
 }
 
 function nowServing() {

@@ -24,8 +24,8 @@ function currentLine() {
     console.log(`The line is currently empty`);
   } else {
     var newCurrentLine = katzDeliLine.map(function(elem, idx) {
-      return `${idx + 1}. ${elem}`
+      return ` ${idx + 1}. ${elem}`
     })
-    console.log(`The line is currently`)
+    console.log(`The line is currently ${newCurrentLine}`)
   }
 }

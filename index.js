@@ -28,6 +28,6 @@ function currentLine() {
     var newCurrentLine = katzDeliLine.map(function(elem, idx) {
       return ` ${idx + 1}. ${elem}`
     })
-    return `The line is currently ${newCurrentLine}`
+    return `The line is currently:${newCurrentLine}`
   }
 }

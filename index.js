@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine, name) {
 
 }
 
-function nowServing() {
+function nowServing(katzDeliLine) {
   //return first person in line then remove that person from line
   //if line empty, return "There is nobody waiting to be served!"
   if (katzDeliLine.length === 0) {

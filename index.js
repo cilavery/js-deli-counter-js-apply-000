@@ -25,11 +25,11 @@ function currentLine() {
   //returns currentLine with 'The line is currently: 1. Ada, 2. Grace'
   //If the line is empty, return "The line is currently empty"
   if (katzDeliLine.length === 0) {
-    console.log(`The line is currently empty`);
+    return `The line is currently empty`;
   } else {
     var newCurrentLine = katzDeliLine.map(function(elem, idx) {
       return ` ${idx + 1}. ${elem}`
     })
-    console.log(`The line is currently ${newCurrentLine}`)
+    return `The line is currently ${newCurrentLine}`
   }
 }
